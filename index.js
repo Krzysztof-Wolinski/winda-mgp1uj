@@ -24,3 +24,7 @@ const directions = {
   top: '🔼',
   bottom: '🔽'
 };
+
+const directionContainer = document.querySelector('.direction');
+
+console.log(directionContainer);
