@@ -33,4 +33,30 @@ body {
   margin: 10px 0;
   border-radius: 3px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
+
+.buttons_array {
+  /* width: 100px;
+  height: 300px;*/
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: lawngreen;
+}
+
+
+.button_floor {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: blue;
+  margin: 5px;
+}
+
